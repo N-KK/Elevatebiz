@@ -327,7 +327,7 @@ Here's how you can run the script assuming you have Python and the required libr
 Before running the script, make sure you have the necessary libraries installed. You can install them using the following command:
 
 ```bash
-pip install selenium transformers pandas beautifulsoup4 webdriver-manager
+pip install requirements.txt
 ```
 
 **2. Script Execution:**
