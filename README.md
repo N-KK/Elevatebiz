@@ -332,12 +332,12 @@ pip install selenium transformers pandas beautifulsoup4 webdriver-manager
 
 **2. Script Execution:**
 
-- Save the script as `review_analysis.py`.
+- Save the script as `main.py`.
 - Open your terminal and navigate to the directory where you saved the script.
 - Run the script using the following command:
 
 ```bash
-python review_analysis.py
+python main.py
 ```
 
 This will execute the `main` function and analyze reviews from the URLs specified in the script (Blue Pearl watch and Fastrack). It will then print the strengths, weaknesses, and marketing messages (if the GPT-2 section is uncommented).
