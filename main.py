@@ -46,7 +46,7 @@ def main(initial_url):
         strengths_output.append(f"Feature: {feature}, Percentage: {info['Percentage']}")
 
     weaknesses_output = []
-    weaknesses_output.append("Notal negative reviews " + str(len(df_negative) / len(df) * 100))
+    weaknesses_output.append("Negative reviews " + str(len(df_negative) / len(df) * 100))
     for feature, info in negative_features.items():
         weaknesses_output.append(f"Feature: {feature}, Percentage: {info['Percentage']}")
 
